@@ -1,0 +1,9 @@
+HOST = xxxxxx    
+PORT = 44444
+USER = xx
+PASSWORD = xxxxxxxxxx
+FTPDir = /sftptest/          #需要下载的ftp服务端目录路径
+LocalDir = E:\project\py\sftp\test      # 本地存贮路径
+INTERVAL= 2  #每次循环上传的间隔时间
+FILEEXT= .db # 上传文件类型
+TIME =  2  #  单位是小时，距离文件修改时间超过2小时才上传
